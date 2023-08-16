@@ -1,0 +1,24 @@
+@import "/src/colors.scss";
+.hero {
+  padding-top: 150px;
+  clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+  background: blue url("../../../../public/assets/img/hero.jpg") no-repeat;
+  background-size: 100%;
+  background-position: 50% 50px;
+  height: 1300px;
+
+  &__title {
+    font-size: 45px;
+    line-height: 1.5;
+    color: #fff;
+    text-shadow: 0 0 3px #fff;
+    font-weight: bold;
+  }
+
+  &__underline {
+    margin-top: -133px;
+    height: 150px;
+    background: $gold;
+    clip-path: polygon(100% 0%, 100% 15%, 50% 100%, 0% 15%, 0% 0%, 50% 82%);
+  }
+}

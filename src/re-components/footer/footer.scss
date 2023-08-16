@@ -1,0 +1,33 @@
+.footer {
+  padding: 50px 0;
+  color: white;
+
+  &__inner {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 6fr 1fr;
+    row-gap: 50px;
+  }
+
+  &__location {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  &__member img {
+    width: 110px;
+  }
+
+  &__socials {
+    display: flex;
+    gap: 10px;
+  }
+  &__socials img {
+    width: 24px;
+  }
+
+  &__bottom {
+    text-align: center;
+    grid-column: span 3;
+  }
+}

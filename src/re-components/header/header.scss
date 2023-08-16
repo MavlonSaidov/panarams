@@ -1,0 +1,78 @@
+@import "src/colors.scss";
+
+.header {
+  height: 160px;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  clip-path: polygon(100% 0%, 100% 55%, 93% 84%, 0 55%, 0 0);
+  z-index: 10;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $light-black;
+    // animation: widthChanger 3s ease-in-out 4s 1 forwards;
+    clip-path: polygon(100% 0%, 100% 50%, 92.7% 80%, 0% 52%, 0% 0%);
+  }
+  &__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    li {
+      padding: 0 25px;
+      a {
+        font-weight: 500;
+        font-size: 16px;
+        transition: all 0.3s ease;
+        position: relative;
+        color: white;
+        text-decoration: none;
+        &::after,
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: -5px;
+          left: 50%;
+          width: 0px;
+          height: 2px;
+          background: $gold;
+          transition: all 0.5s ease;
+        }
+        &::before {
+          left: 25%;
+          margin-left: 25%;
+        }
+        &:hover {
+          color: $gold;
+          &::after,
+          &::before {
+            width: 25%;
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  &__lang {
+    color: white;
+    text-transform: uppercase;
+  }
+}

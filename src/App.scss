@@ -1,0 +1,36 @@
+// @import url(../fonts/Inter/Inter.css);
+// @import url(../fonts/GothamFont/gotham.css);
+@import "/src/colors.scss";
+
+@import "/src/re-components/header/header.scss";
+@import "src/components/homepage/hero/hero.scss";
+@import "src/components/homepage/about/about.scss";
+@import "src/components/homepage/rooms/rooms.scss";
+@import "src/components/homepage/meeting/meeting.scss";
+@import "src/components/homepage/features/features.scss";
+@import "/src/re-components/map/Map.scss";
+@import "/src/re-components/footer/footer.scss";
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Gotham", sans-serif;
+}
+
+body {
+  background: $light-black;
+  font-size: 16px;
+}
+
+.App {
+  max-width: 2220px;
+  margin: 0 auto;
+  background: rgb(14, 9, 31);
+}

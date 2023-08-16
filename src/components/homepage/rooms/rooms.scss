@@ -1,0 +1,65 @@
+@import "/src/colors.scss";
+
+.rooms {
+  margin-top: 90px;
+  color: white;
+  &__slider {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    letter-spacing: normal;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 40px;
+  }
+}
+
+.room {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  &__image {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__info {
+    background: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 20px;
+    color: $black;
+  }
+
+  &__size {
+    color: $grey;
+    margin: 20px 0 30px;
+    font-style: 14px;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
