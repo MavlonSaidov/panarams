@@ -7,7 +7,7 @@ const Overview = () => {
   return (
     <div className="overview">
       <AboutUs />
-      {/* <Services /> */}
+      <Services />
       {/* <Rules /> */}
     </div>
   );
