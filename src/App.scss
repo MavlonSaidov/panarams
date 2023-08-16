@@ -2,6 +2,7 @@
 // @import url(../fonts/GothamFont/gotham.css);
 @import "/src/colors.scss";
 
+// home-page
 @import "/src/re-components/header/header.scss";
 @import "src/components/homepage/hero/hero.scss";
 @import "src/components/homepage/about/about.scss";
@@ -10,6 +11,9 @@
 @import "src/components/homepage/features/features.scss";
 @import "/src/re-components/map/Map.scss";
 @import "/src/re-components/footer/footer.scss";
+
+// overview-page
+@import "/src/components/overview-page/about/about.scss";
 
 html {
   scroll-behavior: smooth !important;

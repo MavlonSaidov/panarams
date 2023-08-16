@@ -7,12 +7,10 @@ import Meeting from "./meeting/Meeting";
 import Features from "./features/Features";
 import Map from "../../re-components/map/Map";
 import Footer from "../../re-components/footer/Footer";
-import Header from "../../re-components/header/Header";
 
 const Homepage = () => {
   return (
     <div className="homepage">
-      <Header />
       <Hero />
       <Underline />
       <About />
