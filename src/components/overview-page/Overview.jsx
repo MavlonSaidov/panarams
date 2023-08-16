@@ -8,7 +8,7 @@ const Overview = () => {
     <div className="overview">
       <AboutUs />
       <Services />
-      {/* <Rules /> */}
+      <Rules />
     </div>
   );
 };
