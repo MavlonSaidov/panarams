@@ -6,7 +6,7 @@ import Header from './re-components/header/Header';
 function App() {
   return (
     <>
-    {/* <Header/> */}
+    <Header/>
     <div className="App">
       {/* <Homepage/> */}
     

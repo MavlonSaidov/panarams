@@ -1,14 +1,14 @@
 import React from "react";
-import About from "./about/About";
 import Services from "./services/Services";
 import Rules from "./rules/Rules";
+import AboutUs from "./about-us/About-us";
 
 const Overview = () => {
   return (
     <div className="overview">
-      <About />
-      <Services />
-      <Rules />
+      <AboutUs />
+      {/* <Services /> */}
+      {/* <Rules /> */}
     </div>
   );
 };
