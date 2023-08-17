@@ -32,8 +32,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer__socials">
-            <span>Ijtimoiy tarmoqlar</span>
-            <div className="footer__socials">
+            <span>Социальные сети</span>
+            <div className="footer__social-icons">
               <a href="https://www.youtube.com/c/radissonhotelgroup">
                 <img
                   class="links"
@@ -91,9 +91,9 @@ const Footer = () => {
           </div>
 
           <div className="footer__bottom">
-            <p>Copyright © 2023 Panarams.uz. Barcha huquqlar himoyalangan.</p>
+            <p>Copyright © 2021–2022 Panarams.uz. Все права защищены.</p>
             <a href="https://marketingconcept.uz/">
-              © Marketing Concept da ishlab chiqilgan.
+              Разработано в © Marketing Concept.
             </a>
           </div>
         </div>

@@ -20,9 +20,16 @@
 
   &__socials {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 10px;
   }
-  &__socials img {
+  &__social-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  &__social-icons img {
     width: 24px;
   }
 
