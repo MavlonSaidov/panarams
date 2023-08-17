@@ -16,6 +16,10 @@
 @import "/src/components/overview-page/about-us/about-us.scss";
 @import "/src/components/overview-page/services/services.scss";
 @import "/src/components/overview-page/rules/rules.scss";
+
+// rooms-page
+@import "/src/components/Rooms-page/standart/standart.scss";
+
 html {
   scroll-behavior: smooth !important;
 }
