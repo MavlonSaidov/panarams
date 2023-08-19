@@ -1,24 +1,23 @@
 import React from "react";
 
-const Standart = () => {
+const Terrace = () => {
   return (
     <div className="room">
       <div className="container">
         <div className="room__inner">
           <div className="room__box">
             <a className="room__image" href="#">
-              <img src="/assets/img/standart.jpg" alt="standart-room" />
+              <img src="/assets/img/terrace.jpg" alt="standart-room" />
             </a>
             <div className="room__info">
-              <h4 className="room__title">Стандартный номер</h4>
+              <h4 className="room__title">Стандартный номер с террасой</h4>
               <p className="room__text">
-                Насладитесь видом из больших окон на город или внутренний дворик
-                отеля. Номера призваны делиться комфортом с нашими гостями и
-                включают в себя письменный стол, телевизор с международными
-                каналами, бесплатный Wi-Fi, сейф, мини-бар, кондиционер, уютную
-                международными каналами, бесплатный <span>Wi-Fi</span>, сейф,
-                мини-бар, кондиционер, уютную ванную комнату. Есть номера,
-                предназначенные для людей с ограниченными возможностями.{" "}
+                Насладитесь видом с террасы на внутренний дворик отеля. Номера
+                призваны делиться комфортом с нашими гостями и включают в себя
+                письменный стол, телевизор с международными каналами, бесплатный
+                Wi-Fi, сейф, мини-бар, кондиционер, уютную международными
+                каналами, бесплатный <span>Wi-Fi</span>, сейф, мини-бар,
+                кондиционер, уютную ванную комнату.
               </p>
               <div className="room__icons">
                 <img src="./assets/icons/n__icon9.png" alt="n__icon9" />
@@ -28,6 +27,7 @@ const Standart = () => {
                 <img src="./assets/icons/n__icon5.png" alt="n__icon5" />
                 <img src="./assets/icons/n__icon4.png" alt="n__icon4" />
                 <img src="./assets/icons/n__icon2.png" alt="n__icon2" />
+                <img src="./assets/icons/n__icon1.png" alt="n__icon2" />
               </div>
 
               <div className="room__details">
@@ -60,22 +60,12 @@ const Standart = () => {
                   </div>
                   <p className="room__size_text">Площадь: 25 кв.м. </p>
                 </div>
-
-                <div className="room__functions">
-                  <div className="room__functions_icon">
-                    <img
-                      src="./assets/icons/mini__icon1.png"
-                      alt="mini__icon1"
-                    />
-                  </div>
-                  <p className="room__functions_text">Доступные функции</p>
-                </div>
               </div>
             </div>
           </div>
 
           <div className="room__label">
-            <h4 className="room__label_title">Стандартный номер</h4>
+            <h4 className="room__label_title">Стандартный номер с террасой</h4>
             <div className="room__label_btns">
               <a
                 className="room__label_btn"
@@ -101,4 +91,4 @@ const Standart = () => {
   );
 };
 
-export default Standart;
+export default Terrace;

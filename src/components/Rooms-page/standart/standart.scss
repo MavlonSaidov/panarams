@@ -1,12 +1,14 @@
 @import "/src/colors.scss";
 
-.standart {
+.room {
   padding-top: 130px;
+  color: white;
   &__inner {
     padding: 0 130px;
   }
   &__box {
     display: flex;
+    align-items: center;
     gap: 50px;
     margin-bottom: 65px;
   }
@@ -34,14 +36,14 @@
   }
   &__icons {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     align-items: center;
     margin-bottom: 20px;
   }
 
   &__details {
     display: grid;
-    grid-template-columns: 4fr 5fr;
+    grid-template-columns: 200px 400px;
     column-gap: 30px;
   }
 
@@ -57,13 +59,31 @@
   &__label {
     border: 1px solid $gold;
     padding: 30px;
+    margin-bottom: 20px;
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    &_title {
+      font-size: 27px;
+    }
 
     &_btns {
       display: flex;
       flex-direction: column;
+      gap: 20px;
+    }
+
+    &_btn {
+      background: $gold;
+      text-decoration: none;
+      width: 240px;
+      height: 67px;
+      text-align: center;
+      line-height: 67px;
+      color: white;
+      font-size: 26px;
     }
   }
 }

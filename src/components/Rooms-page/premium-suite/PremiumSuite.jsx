@@ -1,24 +1,26 @@
 import React from "react";
 
-const Standart = () => {
+const PremiumSuite = () => {
   return (
     <div className="room">
       <div className="container">
         <div className="room__inner">
           <div className="room__box">
             <a className="room__image" href="#">
-              <img src="/assets/img/standart.jpg" alt="standart-room" />
+              <img
+                src="/assets/img/premium-suite.jpg"
+                alt="premium__suite-room"
+              />
             </a>
             <div className="room__info">
-              <h4 className="room__title">Стандартный номер</h4>
+              <h4 className="room__title">Улучшенный люкс</h4>
               <p className="room__text">
-                Насладитесь видом из больших окон на город или внутренний дворик
-                отеля. Номера призваны делиться комфортом с нашими гостями и
-                включают в себя письменный стол, телевизор с международными
-                каналами, бесплатный Wi-Fi, сейф, мини-бар, кондиционер, уютную
-                международными каналами, бесплатный <span>Wi-Fi</span>, сейф,
-                мини-бар, кондиционер, уютную ванную комнату. Есть номера,
-                предназначенные для людей с ограниченными возможностями.{" "}
+                Двух комнатный номер категории люкс включает в себя гостиную и
+                спальню. Выполнен в утонченном стиле, оснащенный всем
+                необходимым для современного человека ценящий комфорт в деталях.
+                В номер входит письменный стол, телевизор с международными
+                каналами, бесплатный высокоскоростной Wi-Fi, сейф, мини-бар,
+                кофемашина Nespresso, кондиционер, ванная комната.
               </p>
               <div className="room__icons">
                 <img src="./assets/icons/n__icon9.png" alt="n__icon9" />
@@ -28,6 +30,7 @@ const Standart = () => {
                 <img src="./assets/icons/n__icon5.png" alt="n__icon5" />
                 <img src="./assets/icons/n__icon4.png" alt="n__icon4" />
                 <img src="./assets/icons/n__icon2.png" alt="n__icon2" />
+                <img src="./assets/icons/n__icon10.png" alt="n__icon10" />
               </div>
 
               <div className="room__details">
@@ -47,9 +50,7 @@ const Standart = () => {
                       alt="mini__icon3"
                     />
                   </div>
-                  <p className="room__bed_text">
-                    С двумя односпальными кроватями
-                  </p>
+                  <p className="room__bed_text">С одной двуспальной кроватью</p>
                 </div>
                 <div className="room__size">
                   <div className="room__size_icon">
@@ -58,24 +59,14 @@ const Standart = () => {
                       alt="mini__icon2"
                     />
                   </div>
-                  <p className="room__size_text">Площадь: 25 кв.м. </p>
-                </div>
-
-                <div className="room__functions">
-                  <div className="room__functions_icon">
-                    <img
-                      src="./assets/icons/mini__icon1.png"
-                      alt="mini__icon1"
-                    />
-                  </div>
-                  <p className="room__functions_text">Доступные функции</p>
+                  <p className="room__size_text">Площадь: 63 кв.м. </p>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="room__label">
-            <h4 className="room__label_title">Стандартный номер</h4>
+            <h4 className="room__label_title">Улучшенный люкс</h4>
             <div className="room__label_btns">
               <a
                 className="room__label_btn"
@@ -101,4 +92,4 @@ const Standart = () => {
   );
 };
 
-export default Standart;
+export default PremiumSuite;
