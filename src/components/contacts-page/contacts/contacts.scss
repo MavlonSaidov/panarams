@@ -1,0 +1,39 @@
+@import "../../../colors.scss";
+
+.contacts {
+  padding: 200px 0 130px;
+
+  &__title {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 60px;
+  }
+
+  &__inner {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  &__map {
+    width: 800px;
+    height: 400px;
+    filter: grayscale(1);
+  }
+
+  &__subtitle {
+    font-size: 44px;
+    color: $gold;
+    margin-bottom: 30px;
+  }
+
+  &__line {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  span {
+    font-weight: 500;
+    color: grey;
+  }
+}

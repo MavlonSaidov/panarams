@@ -1,5 +1,6 @@
 import './App.scss';
 import Rooms from './components/Rooms-page/Rooms';
+import ContactsPage from './components/contacts-page/ContactsPage';
 import Homepage from './components/homepage/Homepage';
 import Overview from './components/overview-page/Overview';
 import ServicesPage from './components/services-page/ServicesPage';
@@ -13,7 +14,8 @@ function App() {
       {/* <Homepage/> */}
       {/* <Overview/> */}
       {/* <Rooms/> */}
-      <ServicesPage/>
+      {/* <ServicesPage/> */}
+      <ContactsPage/>
     </div>
     </>
   );
