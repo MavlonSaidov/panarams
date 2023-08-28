@@ -36,9 +36,11 @@ const Contacts = () => {
               По вопросам резервирования: <span>reservation@panarams.uz</span>
             </div>
             <div className="contacts__line">
-              По вопросам PR, маркетинга и продажам:
-              <span>marketing@panarams.uz</span> По общим вопросам:
-              <span>info@panarams.uz</span>
+              По вопросам PR, маркетинга и продажам:{" "}
+              <span>marketing@panarams.uz</span>
+            </div>
+            <div className="contacts__line">
+              По общим вопросам: <span>info@panarams.uz</span>
             </div>
           </div>
         </div>
