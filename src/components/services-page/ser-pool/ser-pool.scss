@@ -1,0 +1,29 @@
+.ser-pool {
+  margin: 200px 0 100px;
+  text-align: center;
+
+  &__title {
+    font-size: 48px;
+  }
+  &__images {
+    margin: 70px 0;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+  }
+
+  &__subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__text span {
+    color: rgb(154, 154, 154);
+    margin: 0 10px;
+  }
+
+  &__text {
+    line-height: 1.5;
+    font-size: 18px;
+  }
+}
