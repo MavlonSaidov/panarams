@@ -1,0 +1,107 @@
+.restaurants {
+  color: white;
+
+  &__title {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+
+.panarams {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+
+  &__image img {
+    width: 520px;
+  }
+
+  &__title {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+
+  &__line1 {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  &__subtitle {
+    font-size: 20px;
+    margin: 50px 0 20px;
+  }
+
+  &__line2 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  &__text {
+    margin-top: 50px;
+  }
+}
+
+.lobby {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin: 140px 0;
+
+  &__image img {
+    width: 520px;
+  }
+
+  &__title {
+    font-size: 24px;
+    margin-bottom: 70px;
+  }
+
+  &__line {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  &__subtitle {
+    margin: 20px 0 25px;
+  }
+  &__text {
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+.monica {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+
+  span {
+    font-weight: 500;
+  }
+  &__image img {
+    width: 520px;
+  }
+
+  &__title {
+    font-size: 24px;
+    margin-bottom: 70px;
+  }
+
+  &__line {
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  &__subtitle {
+    margin: 20px 0 25px;
+  }
+  &__text {
+    font-size: 18px;
+    font-weight: 300;
+  }
+}

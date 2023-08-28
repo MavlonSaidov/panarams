@@ -14,17 +14,12 @@ const Header = () => {
             data-aos-delay="500"
             data-aos-duration="500"
           >
-            <li className="main-page">
-              <a href="#">Главная</a>
-            </li>
+            
             <li>
               <a href="#">Обзор</a>
             </li>
             <li>
               <a href="#">Номера</a>
-            </li>
-            <li>
-              <a href="#">Лучшая цена</a>
             </li>
             <li>
               <a href="#">Услуги</a>

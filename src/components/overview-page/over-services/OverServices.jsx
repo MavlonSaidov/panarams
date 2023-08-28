@@ -1,19 +1,19 @@
 import React from "react";
 
-const Services = () => {
+const OverServices = () => {
   return (
-    <div className="services">
+    <div className="overservices">
       <div className="container">
-        <div className="services__inner">
-          <h3 className="services__title">Услуги</h3>
-          <div className="services__box">
-            <div className="services__image">
+        <div className="overservices__inner">
+          <h3 className="overservices__title">Услуги</h3>
+          <div className="overservices__box">
+            <div className="overservices__image">
               {/* <img src="/assets/img/about-inn-2.png" alt="" /> */}
               <img src="/assets/img/about__back.jpg" alt="about__back" />
               {/* <span><img src="/assets/icons/play.svg" alt="panarams"/></span> */}
             </div>
-            <div className="services__cols">
-              <div className="services__col1">
+            <div className="overservices__cols">
+              <div className="overservices__col1">
                 <pre>• Упрощённый доступ</pre>
                 <pre>• Ресторан</pre>
                 <pre>• Бар</pre>
@@ -21,7 +21,7 @@ const Services = () => {
                 <pre>• Бесплатный Wi-fi</pre>
                 <pre>• Фитнес центр </pre>
               </div>
-              <div className="services__col2">
+              <div className="overservices__col2">
                 <pre>• Обслуживание в номерах </pre>
                 <pre>• Мини бар</pre>
                 <pre>• Завтрак шведский стол </pre>
@@ -37,4 +37,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default OverServices;
