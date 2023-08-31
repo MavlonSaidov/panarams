@@ -1,5 +1,14 @@
 .gallery {
   padding-top: 200px;
+  &::before {
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.873);
+    position: fixed;
+    z-index: 99;
+    top: 0;
+  }
 
   &__title {
     font-size: 70px;

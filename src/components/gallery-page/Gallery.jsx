@@ -2,6 +2,10 @@ import React from "react";
 import Footer from "../../re-components/footer/Footer";
 
 const Gallery = () => {
+  let galleryActive = false;
+  const active = () => {
+    galleryActive = true;
+  };
   return (
     <>
       <div className="gallery">
@@ -9,7 +13,10 @@ const Gallery = () => {
           <div className="gallery__inner">
             <div className="gallery__title">Галерея</div>
             <div className="gallery__grid">
-              <div className="gallery__item gallery__active">
+              <div
+                onClick={active}
+                className="gallery__item galleryActive && gallery__active"
+              >
                 <img src="./assets/img/gallery/1.jpg" alt="gallery-1" />
               </div>
               <div className="gallery__item">
