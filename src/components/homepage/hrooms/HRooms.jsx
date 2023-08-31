@@ -61,7 +61,7 @@ const Hrooms = () => {
             </a>
             <a href="#" className="hroom">
               <div className="hroom__image">
-                <img src="/assets/img/presidental.jpg" alt="hroom" />
+                <img src="/assets/img/presidential.jpg" alt="hroom" />
               </div>
               <div className="hroom__info">
                 <h3 className="hroom__title">Президентский люкс</h3>

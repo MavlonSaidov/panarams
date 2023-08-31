@@ -1,6 +1,7 @@
 import "./App.scss";
 import Rooms from "./components/Rooms-page/Rooms";
 import ContactsPage from "./components/contacts-page/ContactsPage";
+import Gallery from "./components/gallery-page/Gallery";
 import Homepage from "./components/homepage/Homepage";
 import Overview from "./components/overview-page/Overview";
 import ServicesPage from "./components/services-page/ServicesPage";
@@ -20,6 +21,7 @@ function App() {
             <Route path="/rooms" element={<Rooms />}></Route>
             <Route path="/services" element={<ServicesPage />}></Route>
             <Route path="/contacts" element={<ContactsPage />}></Route>
+            <Route path="/gallery" element={<Gallery />}></Route>
           </Routes>
         </div>
       </BrowserRouter>
