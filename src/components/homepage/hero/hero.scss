@@ -2,7 +2,7 @@
 .hero {
   padding-top: 150px;
   clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
-  background: blue url("../../../../public/assets/img/hero.jpg") no-repeat;
+  background: url("../../../../public/assets/img/hero.jpg") no-repeat;
   background-size: 100%;
   background-position: 50% 50px;
   height: 1300px;

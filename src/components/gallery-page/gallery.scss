@@ -1,13 +1,42 @@
+@import "../..//colors.scss";
+
 .gallery {
   padding-top: 200px;
   &::before {
     content: "";
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    background: #000;
+    position: fixed;
+    z-index: 99;
+    display: none;
+    margin-top: -200px;
+  }
+  &__popup {
+    height: 94%;
+    width: 60%;
     background: rgba(0, 0, 0, 0.873);
     position: fixed;
     z-index: 99;
-    top: 0;
+    top: 31px;
+    left: 50%;
+    transform: translate(-50%);
+    border: 4px solid $gold;
+    display: none;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__closePopup {
+    position: fixed;
+    top: 26px;
+    right: 333px;
+    z-index: 99;
+    display: none;
+    cursor: pointer;
   }
 
   &__title {
@@ -25,18 +54,9 @@
 
   &__item {
     overflow: hidden;
-  }
-
-  &__active {
-    width: 60%;
-    position: fixed;
-    z-index: 100;
-    left: 50%;
-    top: 30px;
-    transform: translateX(-50%);
-    img:hover {
-      transform: none !important;
-    }
+    border: 4px solid $gold;
+    cursor: pointer;
+    height: 330px;
   }
 
   &__item img {
