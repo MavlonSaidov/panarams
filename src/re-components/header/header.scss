@@ -20,6 +20,7 @@
     // animation: widthChanger 3s ease-in-out 4s 1 forwards;
     clip-path: polygon(100% 0%, 100% 50%, 92.7% 80%, 0% 52%, 0% 0%);
   }
+
   &__inner {
     position: absolute;
     top: 0;
@@ -28,18 +29,25 @@
     z-index: 10;
     height: 100px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+  }
+
+  &__logo {
+    flex-grow: 3;
   }
 
   &__links {
     display: flex;
     align-items: center;
+    flex-grow: 4;
+    @media (max-width: 1099px) {
+      display: none;
+    }
     li {
       padding: 0 25px;
       a {
         font-weight: 500;
-        font-size: 16px;
+        font-size: 18px;
         transition: all 0.3s ease;
         position: relative;
         color: white;
@@ -74,5 +82,26 @@
   &__lang {
     color: white;
     text-transform: uppercase;
+    flex-grow: 1;
+    @media (max-width: 1099px) {
+      display: none;
+    }
+  }
+  &__radisson {
+    @media (max-width: 1099px) {
+      display: none;
+    }
+  }
+
+  &__radisson img {
+    width: 100px;
+    flex-grow: 1;
+  }
+
+  &__burger {
+    display: none;
+    @media (max-width: 1099px) {
+      display: block;
+    }
   }
 }

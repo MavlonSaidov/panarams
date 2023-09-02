@@ -36,6 +36,10 @@ const Header = () => {
             </li>
           </ul>
           <div className="header__lang">eng</div>
+          <div className="header__radisson">
+            <img src="/assets/img/radisson.svg" alt="" />
+          </div>
+          <div className="header__burger">x</div>
         </nav>
       </div>
     </header>

@@ -1,4 +1,5 @@
 import React from "react";
+import Underline from "../hero/Underline";
 
 const About = () => {
   return (
@@ -27,6 +28,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Underline />
     </section>
   );
 };
